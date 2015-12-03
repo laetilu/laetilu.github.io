@@ -2,7 +2,7 @@ Nom du fichier photo: photo.png
 NOM: Luciani
 PRENOM: Laetitia
 EMAIL: 
-ADRESSE: 48300 Langogne
+ADRESSE: 
 BIOGRAPHIE: 40 ans bientôt, la crise me guette!
 PROJETS PRO: Developper tout autour du monde...
 HOBBIES: Danser, danser, danser 
