@@ -1,9 +1,38 @@
-Nom du fichier photo: photo.png
-NOM: Luciani
-PRENOM: Laetitia
-EMAIL: 
-ADRESSE: 
-BIOGRAPHIE: 40 ans bientôt, la crise me guette!
-PROJETS PRO: Developper tout autour du monde...
-HOBBIES: Danser, danser, danser 
-date de naissance: 19.12.75
+  GNU nano 2.2.6            Fichier : ma_fiche.txt                     Modifié  
+
+TITRE : NOM PRENOM | Còdi n Camp - Promo 1
+
+HEADER : NOM PRENOM - Promo 1
+
+Nom
+
+Prénom
+
+Ville
+
+Age
+
+Email
+
+----------------------------------------
+
+Biographie
+
+----------------------------------------
+
+Objectif après Còdi n Camp
+
+----------------------------------------
+
+Projets
+
+	Réalisée
+
+	En cours
+
+----------------------------------------
+
+Loisirs
+----------------------------------------
+
+FOOTER © - Còdi n Camp - 2015 - CC BY SA-NC
