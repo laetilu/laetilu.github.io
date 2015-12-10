@@ -12,6 +12,7 @@ nav {
   height: 50px;
   padding: 10px;
   font-size: 25px;
+
 }
 nav a {
   color:white;
@@ -29,8 +30,29 @@ span {
   color: rgb(113, 180, 61);
 }
 section {
-    margin-left: 10px;
+    /*margin-left: 10px;*/
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
   }
+/*.photo {*/
+  /*float: right;*/
+
+}
+.trombiphoto {
+  float:right;
+  width: 50%;
+  text-align: center;
+
+}
+.trombitext {
+  width: 50%;
+  float:left;
+  text-align: center;
+}
+.largeur {
+  width: 960px;
+  margin: auto;
+}
 .menu {
   list-style-type: none;
   display:inline;
@@ -50,9 +72,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 .text-muted {
       color: #777777;
-    }
-section {
-        font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 a:-webkit-any-link {
         color: #71B43D;
@@ -76,4 +95,69 @@ li {
 #largeur {
   width: 960px;
   margin: auto;
+}
+.realises {
+  width: 50%;
+  float:left;
+  text-align: center;
+}
+.realises ul {
+   list-style-type: none;
+ }
+.encours {
+  width: 50%;
+  float:left;
+  text-align: center;
+
+}
+.encours ul {
+  list-style-type:none;
+}
+.zoomImage {
+  zoom: 150%
+  -moz-transform: scale(2)
+}
+
+.form {
+  margin: auto;
+  width: 400px;
+  border: 1px solid;
+  border-color: #71b43d;
+  border-radius:1em;
+  padding: 1em;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+label {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  width: 90px;
+  text-align: right;
+  display: inline-block;
+  padding: 0.5em;
+  font-size: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    border: 1px solid #999;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.button {
+    padding-left: 90px;
+    padding-top: 0.5em;
+}
+
+button {
+    /* Cette marge représente approximativement le même espace
+       que celui entre les étiquettes et les champs textuels */
+    margin-left: .5em;
 }
