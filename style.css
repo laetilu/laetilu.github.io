@@ -1,18 +1,25 @@
+body{
+  margin: 0;
+}
 header {
   /*text-align: center;*/
   background-color: black;
   /*border-color: #71b43d;*/
   /*height: 60px;*/*/
   padding: 10px;*
-  margin-right: -15px;
-  margin-left: -15px;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+
 }
 nav {
   margin:auto;
   height: 50px;
-  padding: 10px;
+  padding: 20px;
   font-size: 25px;
-
+  text-align: center;
+  padding-left: 550px;
 }
 nav a {
   color:white;
@@ -24,15 +31,20 @@ nav a: hover {
 .grey-bg {
   background-color: #f7f7f7;
 }
-span {
+header span {
   float: left;
-  margin-right: 30px;
+  margin: 15px;
   color: rgb(113, 180, 61);
+  font-size: 20pt;
+  font-family:"Kaushan Script";
+  padding-left: 30px;
 }
 section {
     /*margin-left: 10px;*/
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
+    padding: 50px 0;*/
+
   }
 /*.photo {*/
   /*float: right;*/
@@ -42,8 +54,13 @@ section {
   float:right;
   width: 50%;
   text-align: center;
-
 }
+
+.photo {
+  height:150px;
+  widht: 100px;
+}
+
 .trombitext {
   width: 50%;
   float:left;
@@ -105,11 +122,14 @@ li {
    list-style-type: none;
  }
 .encours {
-  width: 50%;
-  float:left;
+  display: inline-block;
   text-align: center;
-
 }
+
+.center {
+  text-align: center;
+}
+
 .encours ul {
   list-style-type:none;
 }
